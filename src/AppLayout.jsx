@@ -3,7 +3,6 @@ import { Switch, Route } from "react-router-dom";
 import Header from "./Header";
 import Footer from "./Footer";
 import Carousel from "./Carousel";
-import Testimonials from "./Testimonials";
 import About from "./About";
 import Services from "./Services";
 import Facts from "./Facts";

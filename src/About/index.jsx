@@ -13,13 +13,13 @@ const About = () => {
                         <div class="row g-4 mb-4">
                             <div class="col-sm-6">
                                 <div class="d-flex align-items-center">
-                                    <img class="flex-shrink-0 me-3" src={require("../img/icon/icon-07-primary.png")} alt=""/>
+                                    <img alt="" class="flex-shrink-0 me-3" src={require("../img/icon/icon-07-primary.png")} />
                                     <h5 class="mb-0">Expert Technician</h5>
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="d-flex align-items-center">
-                                    <img class="flex-shrink-0 me-3" src={require("../img/icon/icon-09-primary.png")} alt=""/>
+                                    <img alt="" class="flex-shrink-0 me-3" src={require("../img/icon/icon-09-primary.png")} />
                                     <h5 class="mb-0">Best Quality Services</h5>
                                 </div>
                             </div>
@@ -50,16 +50,16 @@ const About = () => {
                 <div class="col-lg-6">
                     <div class="row g-3">
                         <div class="col-6 text-end">
-                            <img class="img-fluid w-75 wow zoomIn" data-wow-delay="0.1s" src={require("../img/about-1.jpg")} style={{marginTop: "25%;" }}/>
+                            <img alt="" class="img-fluid w-75 wow zoomIn" data-wow-delay="0.1s" src={require("../img/about-1.jpg")} style={{marginTop: "25%;" }}/>
                         </div>
                         <div class="col-6 text-start">
-                            <img class="img-fluid w-100 wow zoomIn" data-wow-delay="0.3s" src={require( "../img/about-2.jpg") } />
+                            <img alt="" class="img-fluid w-100 wow zoomIn" data-wow-delay="0.3s" src={require( "../img/about-2.jpg") } />
                         </div>
                         <div class="col-6 text-end">
-                            <img class="img-fluid w-50 wow zoomIn" data-wow-delay="0.5s" src={require("../img/about-3.jpg")}  />
+                            <img alt="" class="img-fluid w-50 wow zoomIn" data-wow-delay="0.5s" src={require("../img/about-3.jpg")}  />
                         </div>
                         <div class="col-6 text-start">
-                            <img class="img-fluid w-75 wow zoomIn" data-wow-delay="0.7s" src={require("../img/about-4.jpg")}  />
+                            <img alt="" class="img-fluid w-75 wow zoomIn" data-wow-delay="0.7s" src={require("../img/about-4.jpg")}  />
                         </div>
                     </div>
                 </div>

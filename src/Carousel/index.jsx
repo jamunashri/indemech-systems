@@ -14,7 +14,7 @@ const Carousel = () => {
               <img
                 class="w-100"
                 src={require("../img/carousel-1.jpg")}
-                alt="Image"
+               alt=""
               />
               <div class="carousel-caption">
                 <div class="container">
@@ -27,12 +27,12 @@ const Carousel = () => {
                         Aliqu diam amet diam et eos. Clita erat ipsum et lorem
                         sed stet lorem sit clita duo justo erat amet
                       </p>
-                      <a
+                      {/* <a
                         href=""
                         class="btn btn-primary py-3 px-5 animated slideInDown"
                       >
                         Explore More
-                      </a>
+                      </a> */}
                     </div>
                   </div>
                 </div>
@@ -42,7 +42,7 @@ const Carousel = () => {
               <img
                 class="w-100"
                 src={require("../img/carousel-2.jpg")}
-                alt="Image"
+               alt=""
               />
               <div class="carousel-caption">
                 <div class="container">
@@ -55,12 +55,12 @@ const Carousel = () => {
                         Aliqu diam amet diam et eos. Clita erat ipsum et lorem
                         sed stet lorem sit clita duo justo erat amet
                       </p>
-                      <a
-                        href=""
+                      {/* <a
+                        href="#"
                         class="btn btn-primary py-3 px-5 animated slideInDown"
                       >
                         Explore More
-                      </a>
+                      </a> */}
                     </div>
                   </div>
                 </div>
