@@ -67,24 +67,12 @@ const Footer = () => {
             </div>
             <div class="col-lg-3 col-md-6">
               <h5 class="text-light mb-4">Our Services</h5>
-              <a class="btn btn-link" href="">
-                AC Installation
-              </a>
-              <a class="btn btn-link" href="">
-                Cooling Services
-              </a>
-              <a class="btn btn-link" href="">
-                Heating Services
-              </a>
-              <a class="btn btn-link" href="">
-                Annual Inspections
-              </a>
+              AC Installation Cooling Services Heating Services Annual
+              Inspections
             </div>
             <div class="col-lg-3 col-md-6">
               <h5 class="text-light mb-4">Quick Links</h5>
-              <a class="btn btn-link" href="">
-                About Us
-              </a>
+              About Us
               <a class="btn btn-link" href="/contact">
                 Contact Us
               </a>
@@ -101,7 +89,7 @@ const Footer = () => {
           <div class="container">
             <div class="row">
               <div class="col-md-12 text-center text-md-start mb-3 mb-md-0">
-                &copy; <a href="#">Indmech Systems</a>, All Right Reserved.
+                &copy; Indmech Systems, All Right Reserved.
               </div>
             </div>
           </div>
