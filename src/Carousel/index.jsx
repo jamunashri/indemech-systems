@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Carousel = () => {
+  const [isNext, setNext] = useState(1);
   return (
     <>
       <div class="container-fluid p-0 mb-5">
@@ -10,11 +11,11 @@ const Carousel = () => {
           data-bs-ride="carousel"
         >
           <div class="carousel-inner">
-            <div class="carousel-item active">
+            <div class={`carousel-item ${isNext === 1 && "active"}`}>
               <img
                 class="w-100"
                 src={require("../img/carousel-1.jpg")}
-               alt=""
+                alt=""
               />
               <div class="carousel-caption">
                 <div class="container">
@@ -27,22 +28,16 @@ const Carousel = () => {
                         Aliqu diam amet diam et eos. Clita erat ipsum et lorem
                         sed stet lorem sit clita duo justo erat amet
                       </p>
-                      {/* <a
-                        href=""
-                        class="btn btn-primary py-3 px-5 animated slideInDown"
-                      >
-                        Explore More
-                      </a> */}
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="carousel-item">
+            <div class={`carousel-item ${isNext === 2 && "active"}`}>
               <img
                 class="w-100"
                 src={require("../img/carousel-2.jpg")}
-               alt=""
+                alt=""
               />
               <div class="carousel-caption">
                 <div class="container">
@@ -55,12 +50,6 @@ const Carousel = () => {
                         Aliqu diam amet diam et eos. Clita erat ipsum et lorem
                         sed stet lorem sit clita duo justo erat amet
                       </p>
-                      {/* <a
-                        href="#"
-                        class="btn btn-primary py-3 px-5 animated slideInDown"
-                      >
-                        Explore More
-                      </a> */}
                     </div>
                   </div>
                 </div>
@@ -72,6 +61,7 @@ const Carousel = () => {
             type="button"
             data-bs-target="#header-carousel"
             data-bs-slide="prev"
+            onClick={() => setNext(2)}
           >
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
@@ -81,6 +71,7 @@ const Carousel = () => {
             type="button"
             data-bs-target="#header-carousel"
             data-bs-slide="next"
+            onClick={() => setNext(1)}
           >
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>

@@ -21,6 +21,10 @@ const Contact = () => {
           setMsg('Message sent, will contact you soon!')
           setTimeout(() => {
             setMsg("")
+            setEmail("")
+            setMessage("")
+            setMobile("")
+            setName("")
           }, 2000);
         })
         .then(error => console.log(error));
