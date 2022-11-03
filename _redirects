@@ -1,1 +1,16 @@
-/about /service /contact
+/ /about
+/ /contact
+/ /service
+/about /service
+/about /
+/about /contact
+/contact /
+/contact /about
+/contact /service
+/service /
+/service /about
+/service /contact
+/service / service
+/ /
+/about /about
+/contact /contact
