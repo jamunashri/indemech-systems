@@ -51,7 +51,7 @@ const Header = () => {
           <h1 class="m-0">
             <img
               class="img-fluid me-3"
-              src="img/icon/icon-02-primary.png"
+              src={require('../assets/logo.jpeg')}
               alt=""
             />
             Indmech Systems

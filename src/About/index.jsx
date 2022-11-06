@@ -24,7 +24,9 @@ const About = () => {
                                 </div>
                             </div>
                         </div>
-                        <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                        <p class="mb-4">Indmech has a powerful team of sales, service, and installation teams that operate in accordance with the needs of the client while maintaining the technical viability of a system.
+
+We have been working on numerous projects that serve the HVAC market in all of its areas. Perfect technical design, project management, on-time project delivery, and efficient after-sales support continue to be our strong suits. Overall, we constantly work to provide a potential client with the greatest technologically viable solution.</p>
                         <div class="border-top mt-4 pt-4">
                             <div class="row">
                                 <div class="col-sm-6">

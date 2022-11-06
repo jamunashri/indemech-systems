@@ -14,7 +14,7 @@ const Carousel = () => {
             <div class={`carousel-item ${isNext === 1 && "active"}`}>
               <img
                 class="w-100"
-                src={require("../img/carousel-1.jpg")}
+                src={require("../img/carousel-1.jpeg")}
                 alt=""
               />
               <div class="carousel-caption">
@@ -22,18 +22,17 @@ const Carousel = () => {
                   <div class="row justify-content-center">
                     <div class="col-lg-7 pt-5">
                       <h1 class="display-4 text-white mb-4 animated slideInDown">
-                        We Provide Best AC Repair Services
+                      Cultivating Tomorrow
                       </h1>
                       <p class="fs-5 text-body mb-4 pb-2 mx-sm-5 animated slideInDown">
-                        Aliqu diam amet diam et eos. Clita erat ipsum et lorem
-                        sed stet lorem sit clita duo justo erat amet
+                      Indmech Systems is an organization that provides services for all HVAC (Heating, Ventilation, and Air Conditioning) needs. Built on solid foundations and managed by experts with more than nine years of HVAC industry expertise.
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class={`carousel-item ${isNext === 2 && "active"}`}>
+            {/* <div class={`carousel-item ${isNext === 2 && "active"}`}>
               <img
                 class="w-100"
                 src={require("../img/carousel-2.jpg")}
@@ -47,16 +46,15 @@ const Carousel = () => {
                         Quality Heating & Air Condition Services
                       </h1>
                       <p class="fs-5 text-body mb-4 pb-2 mx-sm-5 animated slideInDown">
-                        Aliqu diam amet diam et eos. Clita erat ipsum et lorem
-                        sed stet lorem sit clita duo justo erat amet
+                      We offer end to end HVAC and Electro Mechanical solutions
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
-          <button
+          {/* <button
             class="carousel-control-prev"
             type="button"
             data-bs-target="#header-carousel"
@@ -75,7 +73,7 @@ const Carousel = () => {
           >
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
-          </button>
+          </button> */}
         </div>
       </div>
     </>

@@ -43,7 +43,7 @@ const Contact = () => {
             <div
               class="col-lg-6 quote-text"
               data-parallax="scroll"
-              data-image-src={require("../img/carousel-1.jpg")}
+              data-image-src={require("../img/carousel-2.jpg")}
             >
               <div
                 class="h-100 px-4 px-sm-5 ps-lg-0 wow fadeIn"
