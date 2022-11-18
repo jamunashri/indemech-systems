@@ -26,6 +26,16 @@ const Footer = () => {
               </span>
             </div>
             <div class="col-lg-3 col-md-6">
+              <h5 class="text-light mb-4">Registered Office</h5>
+              <p>
+                <i class="fa fa-map-marker-alt me-3"></i># 67/12, No. 8,
+                Venkatammal Building Srirampuram, Bangalore - 560 027 Karnataka.
+              </p>
+              <p>
+                <i class="fa fa-phone-alt me-3"></i>+91 9739133666
+              </p>
+            </div>
+            <div class="col-lg-3 col-md-6">
               <h5 class="text-light mb-4">Branch Office</h5>
               <p>
                 <i class="fa fa-map-marker-alt me-3"></i># 11/6, Pavadi Street,
@@ -38,25 +48,60 @@ const Footer = () => {
                 <i class="fa fa-envelope me-3"></i>indmechsystem@gmail.com
               </p>
             </div>
-            <div class="col-lg-3 col-md-6">
-              <h5 class="text-light mb-4">Registered Office</h5>
-              <p>
-                <i class="fa fa-map-marker-alt me-3"></i># 67/12, No. 8,
-                Venkatammal Building Srirampuram, Bangalore - 560 027 Karnataka.
-              </p>
-              <p>
-                <i class="fa fa-phone-alt me-3"></i>+91 9739133666
-              </p>
-            </div>
+
             <div class="col-lg-3 col-md-6">
               <h5 class="text-light mb-4">Our Services</h5>
-              AC Installation Cooling Services Heating Services Annual
-              Inspections
+              <a class="btn btn-link" href="/service">
+                Air Conditioning
+              </a>
+              <a class="btn btn-link" href="/service">
+                Ventilation
+              </a>
+              <a class="btn btn-link" href="/service">
+                Re - Installation & Augumentation
+                of existing systems
+              </a>
+              <a class="btn btn-link" href="/service">
+                Kitchen Exhaust Solution
+              </a>
+              <a class="btn btn-link" href="/service">
+                Maintenance Contracts of All Kinds of
+                HVAC Systems
+              </a>
+              <a class="btn btn-link" href="/service">
+                IAQ Applications (Air Purifier)
+              </a>
+
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <h5 class="text-light mb-4">Our Principles</h5>
+              <a class="btn btn-link" href="/service">
+                Contribution to Society
+              </a>
+              <a class="btn btn-link" href="/service">
+                Fairness and Honesty
+              </a>
+              <a class="btn btn-link" href="/service">
+                Cooperation and Team Spirit
+              </a>
+              <a class="btn btn-link" href="/service">
+                Untiring Effort for Improvement
+              </a>
+              <a class="btn btn-link" href="/service">
+                Courtesy & Humility
+              </a>
+              <a class="btn btn-link" href="/service">
+                Adaptability
+              </a>
+              <a class="btn btn-link" href="/service">
+                Gratitude
+              </a>
+
             </div>
             <div class="col-lg-3 col-md-6">
               <h5 class="text-light mb-4">Quick Links</h5>
               <a class="btn btn-link" href="/about">
-              About Us
+                About Us
               </a>
               <a class="btn btn-link" href="/contact">
                 Contact Us
