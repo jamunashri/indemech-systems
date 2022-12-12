@@ -25,21 +25,11 @@ const Footer = () => {
                 effective methods and procedures.
               </span>
             </div>
-            <div class="col-lg-3 col-md-6">
-              <h5 class="text-light mb-4">Registered Office</h5>
+             <div class="col-lg-3 col-md-6">
+              <h5 class="text-light mb-4">Branch Office</h5>
               <p>
                 <i class="fa fa-map-marker-alt me-3"></i># 67/12, No. 8,
                 Venkatammal Building Srirampuram, Bangalore - 560 027 Karnataka.
-              </p>
-              <p>
-                <i class="fa fa-phone-alt me-3"></i>+91 9739133666
-              </p>
-            </div>
-            <div class="col-lg-3 col-md-6">
-              <h5 class="text-light mb-4">Branch Office</h5>
-              <p>
-                <i class="fa fa-map-marker-alt me-3"></i># 11/6, Pavadi Street,
-                S.N.D. Road, Tiruchengode - 637 211 Tamilnadu.
               </p>
               <p>
                 <i class="fa fa-phone-alt me-3"></i>+91 9972959455
@@ -48,6 +38,17 @@ const Footer = () => {
                 <i class="fa fa-envelope me-3"></i>indmechsystem@gmail.com
               </p>
             </div>
+            <div class="col-lg-3 col-md-6">
+              <h5 class="text-light mb-4">Registered Office</h5>
+              <p>
+                <i class="fa fa-map-marker-alt me-3"></i>
+                #169, Sengunthar Complex, SND Road, Pavadi Street, Tiruchengode
+              </p>
+              <p>
+                <i class="fa fa-phone-alt me-3"></i>+91 9739133666
+              </p>
+            </div>
+           
 
             <div class="col-lg-3 col-md-6">
               <h5 class="text-light mb-4">Our Services</h5>

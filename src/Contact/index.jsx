@@ -53,7 +53,7 @@ const Contact = () => {
                   Contact Us
                 </h1>
                 <p class="text-light mb-5">
-                  Please leave a message so we can contact you.
+                To best help you, kindly leave a message.
                 </p>
               </div>
             </div>

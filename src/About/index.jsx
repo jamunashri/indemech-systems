@@ -24,9 +24,9 @@ const About = () => {
                                 </div>
                             </div>
                         </div>
-                        <p class="mb-4">Indmech has a powerful team of sales, service, and installation teams that operate in accordance with the needs of the client while maintaining the technical viability of a system.
-
-We have been working on numerous projects that serve the HVAC market in all of its areas. Perfect technical design, project management, on-time project delivery, and efficient after-sales support continue to be our strong suits. Overall, we constantly work to provide a potential client with the greatest technologically viable solution.</p>
+                        <p class="mb-4">An firm called Indmech Systems offers services for all HVAC (Heating, Ventilation, and Air Conditioning) requirements. built on strong foundations and managed by professionals with more than nine years of experience in the HVAC sector.</p>
+                        <p>A system's technical viability is maintained by a strong staff at Indmech that works to meet the demands of the customer while providing sales, service, and installation. We have been engaged in a variety of projects that cater to the HVAC market's needs across the board. Our strengths continue to be flawless technical design, project management, timely project delivery, and effective after-sales service. In general, we always strive to offer a potential client the most technologically feasible option.</p>
+                        <p>We will be recognized as the most professional team of HVAC products and services while providing reliable service and installation. We will also lead the way toward more ef􀀟cient and effective methods and procedures.We are known as the reputable HVAC team in the industry while delivering dependable service and installation. We'll also pave the road for more efficient and productive practises.</p>
                         <div class="border-top mt-4 pt-4">
                             <div class="row">
                                 <div class="col-sm-6">
